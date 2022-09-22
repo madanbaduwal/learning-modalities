@@ -52,6 +52,12 @@ Statistical inference
 
 ## Ensemble Learning
 
-## 
+## Time Series Analysis
+
+## Association Rule
 
 ## Federal Learning
+
+## Sparse Dictionay Learning
+
+## Robot Learning
