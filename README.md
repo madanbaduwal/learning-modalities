@@ -1,4 +1,4 @@
-# ai-learning-algorithms
+# learning-paradigms
 
 ## Supervise Learning
 
