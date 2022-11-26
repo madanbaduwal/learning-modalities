@@ -61,3 +61,7 @@ Statistical inference
 ## Sparse Dictionay Learning
 
 ## Robot Learning
+
+## Self Supervised learning
+
+## Imitation learning
