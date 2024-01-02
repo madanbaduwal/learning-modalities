@@ -65,3 +65,9 @@ Statistical inference
 ## Self Supervised learning
 
 ## Imitation learning
+
+## Generative Learning
+
+## Multi-Model Learning
+
+## Meta-Learning
