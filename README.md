@@ -31,20 +31,23 @@ reinforcement learning: https://en.m.wikipedia.org/wiki/Reinforcement_learning
 
 ## Transfer Learning
 
+* **Model(pretrained) don't update model parameters(freez), used as a feature extractor(only work for forward pass). Add some specific layers(classifier layer) at top of that, train it(update model parameters) for our specific task.**
 * (statistical inference)
-
 * In transfer learning, we first train a base network on a base dataset and task, and then we repurpose the learned features, or transfer them, to a second target network to be trained on a target dataset and task. This process will tend to work if the features are general, meaning suitable to both base and target tasks, instead of specific to the base task.
 
 
 
 ## Fine tunning learning
-
+* **Model(prettained) update its parameters based on our specific task**
 In deep learning, fine-tuning is an approach to transfer learning in which the weights of a pre-trained model are trained on new data.[1] Fine-tuning can be done on the entire neural network, or on only a subset of its layers, in which case the layers that are not being fine-tuned are "frozen" (not updated during the backpropagation step).[2] A model may also be augmented with "adapters" that consist of far fewer parameters than the original model, and fine-tuned in a parameter-efficient way by tuning the weights of the adapters and leaving the rest of the model's weights frozen.
+
+### Transfer learning vs fine-tuning
+* **In transfer learning we load pre-trained data freez layers, add clasifier layer only and train on your data i.e used pre-trained model as a feature extractor and added classifier layer as a classifier. In fine-tuning we update pre-trained model parameters based on our custom data.**
 
 
 ## Multi-Instance Learning
-
-( Hybrid learning)(supervise + unsupervise + reinforcement)
+* ( Hybrid learning)(supervise + unsupervise + reinforcement)
+* * 
 
 ## Feature Learning
 automatically finds and improves key patterns, characteristics, or structures (called "features") from raw data. 
