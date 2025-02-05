@@ -2,15 +2,25 @@
 
 ## Supervise Learning
 
-Label Datasets
+* Label Datasets
+* We have an input x, and explicit label y
+* **Model update model parameters based on input x and explicit label y**
+
+### Self-supervise learning
+
+* We have an input x, and implicit label y i.e label is already in input
+* Example of such task is language modeling 
+* Example: a model can be trained to predict the missing word in a sentence, to predict the next word given the previous ones, or to classify the rotation angle of an image.
+* **Model update model parameters based on input and implicit label y**
 
 
 ## Unsupervise Learning
-
-Unlabel Datasets
+* Unlabel Datasets
+* We have an input x, and no label y, but it can use x as a label y
+* **Model update model parameters based on no label or input x**
 
 ## Reinforcement Learning
-
+* We have 
 reinforcement learning: https://en.m.wikipedia.org/wiki/Reinforcement_learning
 
 ## Semi-Supervise Learning
@@ -25,11 +35,6 @@ reinforcement learning: https://en.m.wikipedia.org/wiki/Reinforcement_learning
 n transfer learning, we first train a base network on a base dataset and task, and then we repurpose the learned features, or transfer them, to a second target network to be trained on a target dataset and task. This process will tend to work if the features are general, meaning suitable to both base and target tasks, instead of specific to the base task.
 
 
-## Self-supervise learning
-
-(Hybrid learning)(supervise+ unsupervise + reinforcement)(pretext task)
-
-- Example: a model can be trained to predict the missing word in a sentence, to predict the next word given the previous ones, or to classify the rotation angle of an image. 
 
 ## Fine tunning learning
 
