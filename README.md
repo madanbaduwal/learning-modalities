@@ -20,19 +20,20 @@
 * **Model update model parameters based on no label or input x**
 
 ## Reinforcement Learning
-* We have 
+* **Model update parameters based on reward or punishment**
 reinforcement learning: https://en.m.wikipedia.org/wiki/Reinforcement_learning
 
 ## Semi-Supervise Learning
-
-(hybrid)(half label data + half unlabel data)
+* (hybrid)(half label data + half unlabel data)
+* We have an input x, some data points are labeled lots of them are unlabeled, we predict label of unlabeled data and train model on whole data.
+* **Model update parameters based on first some labelled data and later on whole data**
 
 
 ## Transfer Learning
 
-(statistical inference)
+* (statistical inference)
 
-n transfer learning, we first train a base network on a base dataset and task, and then we repurpose the learned features, or transfer them, to a second target network to be trained on a target dataset and task. This process will tend to work if the features are general, meaning suitable to both base and target tasks, instead of specific to the base task.
+* In transfer learning, we first train a base network on a base dataset and task, and then we repurpose the learned features, or transfer them, to a second target network to be trained on a target dataset and task. This process will tend to work if the features are general, meaning suitable to both base and target tasks, instead of specific to the base task.
 
 
 
